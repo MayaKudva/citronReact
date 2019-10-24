@@ -1,0 +1,136 @@
+/* hotel Page */
+:root {}
+
+#HotelPage {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #eef5f7;
+}
+
+.containerWithBorderShow {
+  background-color: #eaf0f4;
+  border: 0.5px solid var(--common-border-color);
+  padding: 0.2em;
+  width: 95%;
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+  border-bottom-left-radius: 0 !important;
+  margin-top: 7rem;
+  padding-bottom: 5em;
+}
+
+.hotelPageJumbotron {
+  height: 15rem !important;
+  width: 95%;
+  margin: auto;
+  border-top-left-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  margin-top: 2rem !important;
+  padding: 0 !important;
+}
+
+.hotelPageJumbotron .form-control {
+  height: 4rem;
+  margin-top: 0.5em;
+  width: 100%;
+}
+
+.col-xs-12 {
+  padding: 0;
+}
+
+#tenentNumber {
+  height: 4rem;
+  width: 100%;
+  background: #fff;
+  vertical-align: middle;
+  margin-top: 4rem;
+  padding: 0;
+}
+
+#myModal {
+  height: 12rem;
+  width: 100%;
+  display: none;
+  background: #fff;
+  z-index: 9999;
+  position: absolute;
+  opacity: 1;
+}
+
+.numberCommonContainer {
+  height: 3rem;
+  width: 3rem;
+  border: 0.5px solid #0070c6;
+  display: inline-block;
+  text-align: center;
+}
+
+.searchHotelButton {
+  height: 4rem;
+  width: 95%;
+  margin: auto;
+  background: #FEC524;
+  vertical-align: middle;
+  margin-top: 4rem;
+  padding-top: 0.3em;
+}
+
+.serchText {
+  color: #fff !important;
+}
+
+.containerButton {
+  cursor: pointer;
+}
+
+.containerButton:hover {
+  background-color: var(--nav-bg-color);
+}
+
+.containerButton:hover label {
+  color: #fff !important;
+}
+
+/* hotelPackages */
+.hotelPackages {
+  height: 25rem;
+  width: 100%;
+  margin: auto;
+}
+
+.hotelPackageContainer {
+  height: 25rem;
+  text-align: center;
+}
+
+.hotelPackageContainerImage {
+  height: 25rem;
+  background-color: var(--nav-bg-color);
+}
+
+.hideXS {}
+
+/* hotel details div */
+.hotelLocationDetails {
+  height: 30rem;
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.opacityhalf {
+  background-color: #5ca2b2;
+  opacity: 0.2;
+  height: 35rem;
+  position: absolute;
+  width: 100%;
+}
+
+/* media */
+@media only screen and (max-width: 600px) {
+  .hideXS {}
+}

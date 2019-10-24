@@ -1,0 +1,108 @@
+/* @import "hotel.css"; */
+@import "style.css";
+
+footer {
+  bottom: 0;
+}
+
+.footerContainer {
+  height: auto;
+  width: 100%;
+  background-color: #005596;
+  font-size: 1rem;
+  bottom: 0;
+}
+
+.footerContent1,
+.footerContent2,
+.footerContent3 {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-bottom: 2em;
+  border-bottom: 2px solid var(--common-border-color);
+}
+
+.footerContent3 {
+ margin: 0;
+  height: 4rem !important;
+}
+
+.searchHotelsByContry,
+.commonFooterContainer {
+  width: 80%;
+  margin: auto;
+  margin-top: 2em;
+  height: 4rem;
+  border: 0.5px solid var(--common-border-color);
+  border-radius: 3px;
+  text-align: center;
+  padding-top: 0.5rem;
+  cursor: pointer;
+}
+
+.searchHotelsByContry:hover,
+.subscribeButton:hover {
+  background-color: #c99506 !important;
+}
+
+.searchHotelsByContry:hover label,
+.subscribeButton:hover label {
+  color: #fff !important;
+}
+
+.commonfooterLabel {
+  cursor: pointer;
+}
+
+.hotelsByCityName,
+.holidaysByDestinations,
+.flightsByCity,
+.citronAddress {
+  width: 100%;
+  font-family: Ubuntu 'Open Sans';
+  color: grey;
+  display: inline-block;
+  margin-bottom: 0.2em;
+  padding: 0;
+  height: 10rem;
+  margin-top:1em;
+  font-size: 1em !important;
+}
+
+.hotelsByCityName ul li,
+.holidaysByDestinations ul li,
+.flightsByCity ul li,
+.citronAddress ul li {
+  margin-left: 0.5em;
+  font-size: 1em !important;
+  color: #fff;
+}
+
+.commonfooterLabel {
+  display: inline-block;
+}
+
+
+
+.termsOfservice {
+  border: 0;
+  padding: 0;
+  height: 0;
+  width: 100%;
+  text-align: left;
+}
+
+.termsOfservice label {
+  font-size: 0.8em !important;
+  margin: 0 1em 1em 0;
+  
+}
+
+.citronAddress {
+  padding: 0 !important;
+}
+
+.citronAddress ul li {
+  font-size: 1.5em !important;
+}

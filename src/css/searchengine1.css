@@ -1,0 +1,24 @@
+.searchEngine2{
+ 
+    margin-top:5rem!important;
+
+    color:#fff!important;
+  
+}
+.firstrow{
+
+    background-color: #fff;
+}
+.searchIcon{
+width:95%;
+padding:1em;
+height: inherit;
+border: 1px solid var(--common-border-color);
+border-radius: 4px;
+margin:auto;
+}
+@media only screen and (max-width: 600px) {
+    .firstrow{
+font-size:1rem!important;
+    }
+}

@@ -1,0 +1,123 @@
+.zeroMargin {
+  margin: 0 !important;
+}
+
+.autoMargin {
+  margin: auto;
+}
+
+.zeroMarginTop {
+  margin-top: 0 !important;
+}
+
+.oneEMtopMargin {
+  margin-top: 1em !important;
+}
+
+.fiveREMtopMargin {
+  margin-top: 5rem !important;
+}
+
+.oneEMleftMargin {
+  margin-left: 1em !important;
+}
+
+.halfEMtopMargin {
+  margin-top: 0.5em;
+}
+
+.tenREMtopMargin {
+  margin-top: 10rem !important;
+}
+
+/* padding */
+.halfEMpadding {
+  padding: 0.5em;
+}
+
+.zeroPadding {
+  padding: 0 !important;
+}
+
+/* hirght */
+.fiveREMheight {
+  height: 5rem;
+}
+
+.onefiveREMheight {
+  height: 15rem;
+}
+
+.height10 {
+  height: 10rem !important;
+}
+
+.heightauto {
+  height: auto !important;
+}
+
+.inheritHeight {
+  height: inherit !important;
+}
+
+/* width */
+.width100 {
+  width: 100% !important;
+}
+
+.noBorder {
+  border: 0 !important;
+}
+
+/* display */
+.displayInlineBlock {
+  display: inline-block;
+}
+
+.textAlign {
+  text-align: center;
+}
+
+.overflowHidden {
+  overflow: hidden !important;
+}
+
+.form-control {
+  border: 0;
+  border-radius: 0;
+  box-shadow: 0;
+}
+
+.alignMiddle {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+/* defined radius */
+.definedRadius {
+  border-top-left-radius: 25px !important;
+  border-bottom-right-radius: 25px !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+
+.dropShadow {
+  box-shadow: 5px 4px 7px 0px grey;
+}
+
+.color-nav {
+  color: var(--nav-bg-color);
+}
+
+label{
+  color:grey;
+}
+
+
+/* common medi query */
+@media only screen and (max-width: 600px){
+  .mediaWidth100{
+    width:100% !important;
+  }
+}

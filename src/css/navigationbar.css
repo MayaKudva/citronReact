@@ -1,0 +1,102 @@
+header {
+  width: 100%;
+  background-color: var(--nav-bg-color) !important;
+  height: 3rem !important;
+}
+
+.navbar {
+  z-index: 9999;
+  width: 95%;
+  margin: auto;
+  background-color: var(--nav-bg-color) !important;
+  border-radius: 0;
+  height: 3rem !important;
+  font-size: 1em;
+  font-family: 'Fira Sans', sans-serif;
+  padding: 0 !important;
+}
+
+.nav-item .nav-link {
+  color: #fff !important;
+  margin: 0em !important;
+}
+
+
+
+.navbar-collapse {
+  background-color: var(--nav-bg-color);
+ margin-top:0;
+}
+
+.navbar-nav li a {
+  transition: background-color 0.2s;
+}
+
+.navbar-nav li {
+  height: 3rem !important;
+  width: 100% !important;
+  margin: auto;
+  padding-left: 1em;
+}
+
+.navbar-nav li :hover,
+.navbar-nav li.active {
+  color: #0070c6 !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+  background-color: var(--nav-bg-color);
+}
+
+.navbar-toggler button {
+  height: 3rem !important;
+  width: 3rem !important;
+  margin: 0 !important;
+  border: 0 !important;
+}
+
+.navbar-toggler button:active {
+  border: 0 !important;
+}
+
+.signInUp {
+  float: left !important;
+  right: 0 !important;
+}
+
+.signInUp2 {
+  border: 1px solid red;
+  height: 3rem;
+  width: 40rem;
+}
+
+.signInUp2 li a {
+  border: 1px solid #ff0000;
+
+  width: auto;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 970px) {
+  .signInUp {
+    display: none;
+  }
+
+  .navbar-nav li{
+    padding-left: 0;
+  }
+  .navbar-toggler {
+    right: 2em;
+    display: inline;
+  }
+#navbarTogglerDemo02{
+  margin-top:0.1em!important;
+  border-top:1px solid #fff;
+}
+.navbar{
+  width: 100%;
+}
+}
